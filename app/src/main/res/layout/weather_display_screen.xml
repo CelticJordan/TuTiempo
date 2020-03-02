@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtViewCiudad"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="36sp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/txtViewUltActualizacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/ImageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtViewDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/txtViewHumedad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/txtViewHora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/txtViewCelsius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:gravity="center"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btFav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="anadirFav"
+            android:text="@string/btFav" />
+    </LinearLayout>
+
+
+</LinearLayout>

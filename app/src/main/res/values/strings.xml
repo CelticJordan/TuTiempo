@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TuTiempo</string>
+    <string name="idMenuItem1">Inicio</string>
+    <string name="idMenuItem2">El tiempo <b><i>Aquí</i></b></string>
+    <string name="app_desc">El tiempo que hace en este mismo instante allá donde busques</string>
+    <string name="edCiudadPlaceholder">Nombre Lugar</string>
+    <string name="btCiudad">Buscar Lugar</string>
+    <string name="ciudadesFav">Favoritos: </string>
+    <string name="btFav">Añadir a Favoritos</string>
+    <string name="contextDel">Eliminar</string>
+</resources>
